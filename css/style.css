@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,.4)), url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    position: relative;
+}
+
+.nav{
+    height: 20vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.list > ul{
+    display: flex;
+    gap: 50px;
+}
+
+.item{
+    list-style-type: none;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.list > ul > .item:last-child{
+    text-align: center;
+}
+
+.section{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+.section > h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.section > button{
+    color: #fff;
+    font-size: 18px;
+    border: 3px solid #fff;
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+
+
+
+.box{
+    width: 230px;
+    height: 150px;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,.4);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box > p{
+    font-size: 18px;
+}
+
+.icon-container{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container >i{
+    color: #0d0d0d;
+    transform: scale(1.5);
+}
+
+#line1{
+    height: 2px;
+    width: 61px;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    right: 36%;
+    bottom: 27%;
+}
+
+#circle1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    right: 35%;
+    bottom: 26%;
+}
+
+#line2{
+    height: 2px;
+    width: 61px;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    right: 36%;
+    top: 48.5%;
+    right: 27%;
+    transform: rotate(90deg);
+}
+
+#circle2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    right: 28.4%;
+    bottom: 45%;
+}
+
+#box-1{
+    position: absolute;
+    right: 40%;
+}
+
+#box-2{
+    height: 120px;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+#box-2 > p{
+    font-size: 16px;
+}
